@@ -12,7 +12,7 @@ const Projects = () => {
 
       <div id="projects-container">
         <div className="project-card">
-          <img src={Grabngo} className='project-cover' alt='project cover image'/>
+          <img src={Grabngo} className='project-cover' />
           <div className='project-header'>
             <h3 className="project-title">Grab'n'Go</h3>
             <a href="https://anarotgo.itch.io/grab-n-go" className='project-link' target='_blank' rel="noreferrer"><FaExternalLinkAlt/></a>
@@ -25,7 +25,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-card">
-          <img src={Hungmen} className='project-cover' alt='project cover image'/>
+          <img src={Hungmen} className='project-cover' />
           <div className='project-header'>
             <h3 className="project-title">HUNGMEN</h3>
             <a href="https://anarotgo.itch.io/hungmen" className='project-link' target='_blank' rel="noreferrer"><FaExternalLinkAlt/></a>
@@ -38,7 +38,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-card">
-          <img src={Portfolio} className='project-cover' alt='project cover image'/>
+          <img src={Portfolio} className='project-cover' />
           <div className='project-header'>
             <h3 className="project-title">Portfolio Website</h3>
             <a href="https://anarotgo.itch.io/hungmen" className='project-link' target='_blank' rel="noreferrer"><FaExternalLinkAlt/></a>
