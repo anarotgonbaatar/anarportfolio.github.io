@@ -1,6 +1,5 @@
 import React from 'react'
 import './nav.css'
-import {FaHome, FaBook, FaHammer, FaBrain, FaPhone} from "react-icons/fa"
 
 const Nav = () => {
   return (
