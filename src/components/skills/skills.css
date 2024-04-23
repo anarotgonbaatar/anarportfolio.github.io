@@ -1,0 +1,22 @@
+#skills-container {
+    display: flex; flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    text-align: center;
+    border: 1px solid var(--bg-color-variant);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    min-width: 5rem;
+    transition: var(--transition);
+}
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-icon {
+    max-width: 3rem;
+}

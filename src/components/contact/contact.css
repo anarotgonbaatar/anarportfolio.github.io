@@ -1,0 +1,29 @@
+/* CONTACT SECTION */
+#contact-form {
+    display: flex; flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.5rem; margin-top: 0.25rem;
+    box-sizing: border-box;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: transparent;
+    font-family: inherit;
+    transition-property: background-color, border-radius;
+    transition-duration: 0.4s;
+}
+.form-input:hover {
+    border-radius: 1rem;
+}
+.form-input:focus {
+    border: 1px solid var(--secondary-color);
+    border-radius: 1rem;
+}
+
+#contact-section textarea {
+    height: 100px;
+}

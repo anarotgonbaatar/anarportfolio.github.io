@@ -1,0 +1,52 @@
+#projects-container {
+    display: flex; flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    gap: 1rem;
+}
+.project-header {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+    gap: 0.5rem;
+}
+
+.project-link {
+    width: 1rem;
+}
+
+.project-card {
+    width: 30%;
+    position: relative;
+    border: 1px solid var(--primary-color);
+    border-radius: 1.5rem;
+    padding: 0.5rem; padding-bottom: 4rem;
+
+    transition: var(--transition);
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-cover {
+    border-radius: 1rem;
+    border: 1px solid var(--bg-color-variant);
+}
+
+.skill-container {
+    display: flex; flex-direction: row;
+    flex-wrap: wrap; justify-content: center;
+    gap: 0.5rem;
+    position: absolute; bottom: 0.5rem;
+}
+
+.skill {
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        width: auto;
+    }
+}

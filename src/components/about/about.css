@@ -1,0 +1,33 @@
+/* About Section */
+#about {
+    padding-top: 4rem;
+    text-align: center;
+}
+
+/* CTA */
+.cta {
+    display: flex; justify-content: center;
+    gap: 1rem;
+}
+
+/* Header Socials */
+.header-socials {
+    display: flex; flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Portrait */
+.portrait {
+    background: linear-gradient(var(--primary-color), transparent);
+    max-width: 30rem;
+    align-self: center;
+    border-radius: 3rem;
+    overflow: hidden;
+
+    transition: var(--transition);
+}
+.portrait:hover {
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+    transform: scale(1.05);
+}

@@ -1,0 +1,19 @@
+#navbar {
+    display: flex; flex-direction: row;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    width: 100vw; height: max-content;
+    position: fixed;
+    z-index: 10;
+    padding: 1rem;
+    gap: 1rem;
+    border-bottom: 1px solid var(--bg-color-variant);
+}
+
+.nav-btn {
+    color: var(--text-color);
+}
+.nav-btn:hover {
+    color: var(--secondary-color);
+}

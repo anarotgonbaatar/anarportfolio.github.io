@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    border: 0; outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --bg-color: #f2f2f2;
+    --bg-color-variant: #797270;
+    --primary-color: #453F3C;
+    --secondary-color: #ea9010;
+    --text-color: #453F3C;
+
+    --transition: all 0.4s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+/* General Styles */
+.container {
+    display: flex; flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.section {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    min-height: 100vh;
+    padding: 1rem; gap: 2rem;
+    border-bottom: 1px dashed var(--bg-color-variant)
+}
+
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+section > h2 {
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+.text-light {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--secondary-color);
+    transform: scale(1.05);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--primary-color);
+    padding: 0.75rem 1.25rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+    border-color: transparent;
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.social-link {
+    min-width: 2rem;
+    height: auto;
+}
+
+svg {
+    width: fill; height: auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
