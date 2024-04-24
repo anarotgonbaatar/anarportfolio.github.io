@@ -114,7 +114,7 @@ img {
 }
 
 svg {
-    width: fill; height: auto;
+    width: -webkit-fill-available; height: auto;
 }
 
 @media (max-width: 768px) {
